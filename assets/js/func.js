@@ -72,7 +72,7 @@ particlesJS('particles-js', {
       anim: {
         enable: false,
         speed: 40,
-        size_min: 0.1,
+        size_min: 0.2,
         sync: false,
       },
     },
@@ -115,10 +115,10 @@ particlesJS('particles-js', {
         duration: 0.4,
       },
       push: {
-        particles_nb: 4,
+        particles_nb: 1,
       },
       remove: {
-        particles_nb: 2,
+        particles_nb: 4,
       },
     },
   },

@@ -15,7 +15,7 @@
 @import url("https://fonts.googleapis.com/css?family=Baloo+Paaji|Open+Sans:300,300i,400,400i,600,600i,700,700i");
 :root {
   --blue: #1e549f;
-  --indigo: #695aa6;
+  --indigo: #0065a4;
   --purple: #6f42c1;
   --pink: #e83e8c;
   --red: #ec185d;
@@ -27,7 +27,7 @@
   --white: #fff;
   --gray: #6c757d;
   --gray-dark: #393e46;
-  --primary: #695aa6;
+  --primary: #0065a4;
   --secondary: #393e46;
   --success: #1bb74f;
   --info: #17a2b8;
@@ -191,13 +191,13 @@ sup {
 }
 
 a {
-  color: #695aa6;
+  color: #0065a4;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #493f75;
+  color: #0065a4;
   text-decoration: none;
 }
 
@@ -2817,15 +2817,15 @@ fieldset:disabled a.btn {
 
 .btn-primary.disabled, .btn-primary:disabled {
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #507d99;
+  border-color: #507d99;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #544885;
-  border-color: #4f437d;
+  background-color: #507d99;
+  border-color: #507d99;
 }
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
@@ -3087,7 +3087,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-primary.disabled, .btn-outline-primary:disabled {
-  color: #695aa6;
+  color: #0065a4;
   background-color: transparent;
 }
 
@@ -3329,7 +3329,7 @@ fieldset:disabled a.btn {
 
 .btn-link {
   font-weight: 400;
-  color: #695aa6;
+  color: #0065a4;
   text-decoration: none;
 }
 
@@ -3632,7 +3632,7 @@ input[type="button"].btn-block {
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #695aa6;
+  background-color: #0065a4;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4038,8 +4038,8 @@ input[type="button"].btn-block {
 
 .custom-control-input:checked ~ .custom-control-label::before {
   color: #fff;
-  border-color: #695aa6;
-  background-color: #695aa6;
+  border-color: #0065a4;
+  background-color: #0065a4;
 }
 
 .custom-control-input:focus ~ .custom-control-label::before {
@@ -4103,8 +4103,8 @@ input[type="button"].btn-block {
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::before {
-  border-color: #695aa6;
-  background-color: #695aa6;
+  border-color: #0065a4;
+  background-color: #0065a4;
 }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-label::after {
@@ -4335,7 +4335,7 @@ input[type="button"].btn-block {
   width: 1rem;
   height: 1rem;
   margin-top: -0.25rem;
-  background-color: #695aa6;
+  background-color: #0065a4;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4368,7 +4368,7 @@ input[type="button"].btn-block {
 .custom-range::-moz-range-thumb {
   width: 1rem;
   height: 1rem;
-  background-color: #695aa6;
+  background-color: #0065a4;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4404,7 +4404,7 @@ input[type="button"].btn-block {
   margin-top: 0;
   margin-right: 0.2rem;
   margin-left: 0.2rem;
-  background-color: #695aa6;
+  background-color: #0065a4;
   border: 0;
   border-radius: 1rem;
   -webkit-transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
@@ -4552,7 +4552,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #695aa6;
+  background-color: #0065a4;
 }
 
 .nav-fill .nav-item {
@@ -5440,8 +5440,8 @@ input[type="button"].btn-block {
 .page-item.active .page-link {
   z-index: 1;
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #0065a4;
+  border-color: #0065a4;
 }
 
 .page-item.disabled .page-link {
@@ -5526,7 +5526,7 @@ a.badge:hover, a.badge:focus {
 
 .badge-primary {
   color: #fff;
-  background-color: #695aa6;
+  background-color: #0065a4;
 }
 
 a.badge-primary:hover, a.badge-primary:focus {
@@ -5850,7 +5850,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   color: #fff;
   text-align: center;
   white-space: nowrap;
-  background-color: #695aa6;
+  background-color: #0065a4;
   -webkit-transition: width 0.6s ease;
   transition: width 0.6s ease;
 }
@@ -5959,8 +5959,8 @@ a.badge-dark:focus, a.badge-dark.focus {
 .list-group-item.active {
   z-index: 2;
   color: #fff;
-  background-color: #695aa6;
-  border-color: #695aa6;
+  background-color: #0065a4;
+  border-color: #0065a4;
 }
 
 .list-group-horizontal {
@@ -7298,7 +7298,7 @@ button.bg-dark:focus {
 }
 
 .border-primary {
-  border-color: #695aa6 !important;
+  border-color: #0065a4 !important;
 }
 
 .border-secondary {
@@ -10805,7 +10805,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #695aa6 !important;
+  color: #0065a4 !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
@@ -10993,12 +10993,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 ::-moz-selection {
-  background: #695aa6;
+  background: #0065a4;
   color: white;
 }
 
 ::selection {
-  background: #695aa6;
+  background: #0065a4;
   color: white;
 }
 
@@ -11058,7 +11058,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .infos .social-links a:hover {
-  color: #695aa6;
+  color: #0065a4;
 }
 
 /* contact section */
@@ -11731,7 +11731,7 @@ pre .code {
 }
 
 .custom-navbar .nav .item .link:hover, .custom-navbar .nav .item .link.active {
-  color: #695aa6;
+  color: #0065a4;
 }
 
 .custom-navbar.affix {
@@ -11740,7 +11740,7 @@ pre .code {
 }
 
 .custom-navbar.affix .logo {
-  color: #695aa6;
+  color: #0065a4;
 }
 
 .custom-navbar.affix .container {
@@ -12049,13 +12049,13 @@ pre .code {
   border-radius: 50%;
   line-height: 40px;
   text-align: center;
-  border: 2px solid #6c757d;
-  color: #6c757d;
+  border: 2px solid #0065a4;
+  color: #0065a4;
 }
 
 .footer .social-links a:hover {
-  background: #695aa6;
-  border-color: #695aa6;
+  background: #0065a4;
+  border-color: #0065a4;
   color: #fff;
   text-decoration: none;
 }
